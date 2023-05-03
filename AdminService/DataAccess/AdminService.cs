@@ -13,6 +13,8 @@ namespace AdminService.DataAccess
         {
             list.Add(new Admin { Id = 100, Name = "Tushar", City = "Bihar" });
             list.Add(new Admin { Id = 101, Name = "Girija", City = "Pune" });
+            list.Add(new Admin { Id = 104, Name = "Debi", City = "Odisha" });
+            list.Add(new Admin { Id = 105, Name = "Anand", City = "Odisha" });
         }
         public List<Admin> AllAdminRecord()
         {
